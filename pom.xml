@@ -8,5 +8,32 @@
     <artifactId>Java-elementary-matiusha</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <developers>
+        <developer>
+            <name>Matiusha Oleksandr</name>
+            <email></email>
+            <roles>
+                <role>owner</role>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apacher.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version>
+            <configuration>
+                <source>11</source>
+                <target>11</target>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
+<dependencies>
+</dependencies>
 
 </project>
